@@ -1,0 +1,24 @@
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+    Scanner Scn = new Scanner(System.in);
+    int n = Scn.nextInt();
+    
+    
+    while (n>0){
+        int dig= n%10;
+            n= n/10;
+            System.out.println(dig);
+    }
+
+
+	}
+}
+i/p :1124
+o/p :4
+     2
+     1
+     1
