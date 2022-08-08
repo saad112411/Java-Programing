@@ -1,0 +1,24 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+   int x =100;
+   int y = 120;
+   if (x==y)
+   {
+       System.out.println("X and Y are Equal0");
+   }
+   else if(x>y)
+   {
+     System.out.println("X is Greater than Y")  ;
+   }
+   else
+   {
+       System.out.println("X is smaller than y");
+   }
+   
+   
+   
+    }
+}
